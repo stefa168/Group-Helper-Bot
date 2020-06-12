@@ -13,6 +13,8 @@ There are two types of roles:
 
 The system can show the debts one person has against another (with any eventual detail that has been added) and it is possible to mark them as paid off.
 
+Since the interaction between the user and the system could take some time in particular circumstances, it is important that the system is able to keep track of the progression of interactions.
+
 Single Debts
 ============
 
