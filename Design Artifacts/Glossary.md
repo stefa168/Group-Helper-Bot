@@ -25,6 +25,7 @@ Excluded User | A user that has been specified not to owe anything in a Transact
 Expiration Date | A date specified for an Event after which the Event expires. It can be postponed, even after the event expires, but before it has been Terminated.
 Expired Event | An event whose Expiration Date has passed. It cannot receive new Transactions, except if its Expiration Date is postponed. | Closed Event
 Payment Rate | A Debt can be payed off in multiple rates. | Rate
+Progression | An indicator that specifies how complete is a process that a user started.
 Recalculation Group | A group of users with Common Credits/Debts. Its main purpose is to allow to recalculate their debts and credits to minimize the number of money exchanges needed.
 Single Debt | A single debt is a one-time debt created specifically by a Credtor for a Debtor. It isn't linked to an Event, unlike a Derivate Debt.
 Terminated Event | An event that has been closed or has expired and whose owner decided to close permanently. After the termination, the single User's debts are calculated.
